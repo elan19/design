@@ -8,7 +8,7 @@ Home page
 
 The source for this page is in `content/index.md`.
 
-<img class="meImage" src="image/jag.jpg" alt="Bild på mig">
+![Bild på mig](%assets_url%/img/jag.jpg) {.meImage}
 
 Hej,
 
