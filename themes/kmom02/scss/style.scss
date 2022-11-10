@@ -1,0 +1,116 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+/* Under mina övriga imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: $font-color;
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+/* Resten av min stylesheet */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none !important;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #666;
+}
+
+/* Article in main */
+
+.article {
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid #222;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+/* Newly added on specific sites */
+
+.me-image {
+    width: 20%;
+    margin-left: 40%;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #666;
+    height: 150px;
+
+    a {
+        color: #222;
+    }
+
+    .social {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .text {
+        margin-top: 50px;
+        margin-left: -5%;
+    }
+
+    .footer-logo {
+        width: 100%;
+        max-width: 157px;
+    }
+}
+
