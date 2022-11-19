@@ -1,0 +1,63 @@
+/* technologies.scss */
+.technologies {
+    display: grid;
+    margin-bottom: 25px;
+}
+
+.techno-h1 {
+    grid-column: span 2;
+}
+
+.techno-link {
+    grid-column: span 1;
+}
+
+.techno-content {
+    grid-column: span 1;
+}
+
+.techno-content h1 {
+    margin: 0;
+}
+
+.techno-link a {
+    display: block;
+    color: #444;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.techno-link a:hover {
+    color: $font-color;
+    text-decoration: underline;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+@media screen and (max-width: 480px) {
+    .technologies {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .techno-h1 {
+        grid-column: span 1;
+        display: none;
+    }
+
+    .techno-link {
+        display: none;
+    }
+
+    .techno-content h1 {
+        margin-top: 25px;
+    }
+
+    .techno-content p {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

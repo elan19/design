@@ -1,0 +1,85 @@
+/* technology.scss */
+.technology {
+    display: grid;
+    margin-bottom: 25px;
+}
+
+.technology h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.techno-grid1 {
+    grid-column: span 1;
+    height: 150px;
+    border: 1px solid $font-color;
+}
+
+.techno-grid2 {
+    grid-column: span 2;
+    height: 150px;
+    border: 1px solid $font-color;
+}
+
+.techno-grid3 {
+    grid-column: span 3;
+    height: 150px;
+    border: 1px solid $font-color;
+}
+
+.technology h2 {
+    width: 100px;
+    border-bottom: 1px solid $font-color;
+    margin-bottom: 10px;
+}
+
+.technology a {
+    text-decoration: none;
+    color: #555;
+}
+
+.technology a:hover {
+    text-decoration: underline;
+    color: $font-color;
+}
+
+.technology p {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .technology {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .technology h1 {
+        grid-column: span 1;
+    }
+
+    .techno-grid2 {
+        grid-column: span 1;
+    }
+
+    .techno-grid1 {
+        grid-column: span 1;
+    }
+
+    .techno-grid3 {
+        grid-column: span 1;
+    }
+
+    .technology h2 {
+        margin-left: 5px;
+    }
+
+    .technology p {
+        font-size: 3vmin;
+        padding-right: 10px;
+        margin-left: 5px;
+    }
+    
+    .technology a {
+        margin-left: 5px;
+    }
+}

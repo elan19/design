@@ -6458,6 +6458,158 @@ pre code {
   line-height: 1.4;
 }
 
+/* report.scss */
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+/* technologies.scss */
+.technologies {
+  display: grid;
+  margin-bottom: 25px;
+}
+
+.techno-h1 {
+  grid-column: span 2;
+}
+
+.techno-link {
+  grid-column: span 1;
+}
+
+.techno-content {
+  grid-column: span 1;
+}
+
+.techno-content h1 {
+  margin: 0;
+}
+
+.techno-link a {
+  display: block;
+  color: #444;
+  text-decoration: none;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.techno-link a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+@media screen and (max-width: 480px) {
+  .technologies {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .techno-h1 {
+    grid-column: span 1;
+    display: none;
+  }
+  .techno-link {
+    display: none;
+  }
+  .techno-content h1 {
+    margin-top: 25px;
+  }
+  .techno-content p {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+/* technology.scss */
+.technology {
+  display: grid;
+  margin-bottom: 25px;
+}
+
+.technology h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.techno-grid1 {
+  grid-column: span 1;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.techno-grid2 {
+  grid-column: span 2;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.techno-grid3 {
+  grid-column: span 3;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.technology h2 {
+  width: 100px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.technology a {
+  text-decoration: none;
+  color: #555;
+}
+
+.technology a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.technology p {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .technology {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .technology h1 {
+    grid-column: span 1;
+  }
+  .techno-grid2 {
+    grid-column: span 1;
+  }
+  .techno-grid1 {
+    grid-column: span 1;
+  }
+  .techno-grid3 {
+    grid-column: span 1;
+  }
+  .technology h2 {
+    margin-left: 5px;
+  }
+  .technology p {
+    font-size: 3vmin;
+    padding-right: 10px;
+    margin-left: 5px;
+  }
+  .technology a {
+    margin-left: 5px;
+  }
+}
 /* Under mina övriga imports */
 * {
   font-family: "Roboto", sans-serif;
