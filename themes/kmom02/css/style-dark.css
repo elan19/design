@@ -6613,8 +6613,8 @@ pre {
 /* Under mina övriga imports */
 * {
   font-family: "Roboto", sans-serif;
-  color: #000;
   box-sizing: border-box;
+  color: rgba(238, 238, 238, 0.9333333333);
   border: 0 none;
   margin: 0;
   padding: 0;
@@ -6636,7 +6636,7 @@ body {
 }
 
 body {
-  background-color: #999;
+  background-color: #111;
   display: flex;
   flex-direction: column;
 }
@@ -6660,11 +6660,23 @@ ul {
 }
 
 /* Header */
+.header {
+  border-bottom: 1px solid #444;
+}
+
 .header,
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #666;
+  background-color: #111;
+}
+
+.nav a {
+  color: #8ea0aa;
+}
+
+.nav a:hover {
+  color: #666;
 }
 
 /* Article in main */
@@ -6676,23 +6688,18 @@ ul {
   padding-top: 25px;
 }
 
-/* Newly added on specific sites */
-.me-image {
-  width: 20%;
-  margin-left: 40%;
-}
-
-.analyze-pic {
-  width: 75%;
-  margin-left: 12.5%;
-  border: 1px solid #000;
+.article h1,
+.article h2,
+.article h3,
+.article h4 {
+  color: #666;
 }
 
 /* Footer */
 .footer {
   display: flex;
   justify-content: space-between;
-  background-color: #666;
+  background-color: #222;
   height: 150px;
 }
 .footer a {
@@ -6709,4 +6716,48 @@ ul {
 .footer .footer-logo {
   width: 100%;
   max-width: 157px;
+}
+
+/* Newly added on specific sites */
+.me-image {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.analyze-pic {
+  width: 75%;
+  margin-left: 12.5%;
+  border: 1px solid #666;
+}
+
+.techno-link a {
+  display: block;
+  color: #8ea0aa;
+  text-decoration: none;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.techno-link a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+.technology a {
+  text-decoration: none;
+  color: #8ea0aa;
+}
+
+.technology a:hover {
+  text-decoration: underline;
+  color: #666;
+}
+
+pre {
+  white-space: pre-wrap;
+  background-color: #111;
+}
+
+code {
+  background-color: #111;
 }

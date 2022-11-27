@@ -17,8 +17,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 * {
     font-family: 'Roboto', sans-serif;
-    color: $font-color;
     box-sizing: border-box;
+    color: $font-color-white;
     border: 0 none;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ body {
 }
 
 body {
-    background-color: $background-color;
+    background-color: $background-color-dark;
     display: flex;
     flex-direction: column;
 }
@@ -65,11 +65,23 @@ ul {
 
 /* Header */
 
+.header {
+    border-bottom: 1px solid #444;
+}
+
 .header,
 .site-header {
     display: flex;
     justify-content: space-between;
-    background-color: #666;
+    background-color: $background-color-dark;
+}
+
+.nav a {
+    color: $font-color-logo;
+}
+
+.nav a:hover {
+    color: $font-color-grey;
 }
 
 /* Article in main */
@@ -82,17 +94,11 @@ ul {
     padding-top: 25px;
 }
 
-/* Newly added on specific sites */
-
-.me-image {
-    width: 20%;
-    margin-left: 40%;
-}
-
-.analyze-pic {
-    width: 75%;
-    margin-left: 12.5%;
-    border: 1px solid #000;
+.article h1,
+.article h2,
+.article h3,
+.article h4 {
+    color: $font-color-grey;
 }
 
 /* Footer */
@@ -100,7 +106,7 @@ ul {
 .footer {
     display: flex;
     justify-content: space-between;
-    background-color: #666;
+    background-color: #222;
     height: 150px;
 
     a {
@@ -123,3 +129,47 @@ ul {
     }
 }
 
+/* Newly added on specific sites */
+
+.me-image {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.analyze-pic {
+    width: 75%;
+    margin-left: 12.5%;
+    border: 1px solid $font-color-grey;
+}
+
+.techno-link a {
+    display: block;
+    color: $font-color-logo;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.techno-link a:hover {
+    color: $font-color-grey;
+    text-decoration: underline;
+}
+
+.technology a {
+    text-decoration: none;
+    color: $font-color-logo;
+}
+
+.technology a:hover {
+    text-decoration: underline;
+    color: $font-color-grey;
+}
+
+pre {
+    white-space: pre-wrap;
+    background-color: $background-color-dark;
+}
+
+code {
+    background-color: $background-color-dark;
+}
