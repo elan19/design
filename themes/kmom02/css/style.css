@@ -6581,6 +6581,18 @@ pre {
   margin-bottom: 5px;
 }
 
+.technology .image-grid1 {
+  grid-column: span 1;
+}
+
+.technology .image-grid1 .pics {
+  margin-left: 20%;
+}
+
+iframe {
+  margin: auto;
+}
+
 @media screen and (max-width: 480px) {
   .technology {
     margin-left: 0;
@@ -6608,6 +6620,9 @@ pre {
   }
   .technology a {
     margin-left: 5px;
+  }
+  .technology .image-grid1 .pics {
+    margin-left: 10%;
   }
 }
 /* Under mina övriga imports */

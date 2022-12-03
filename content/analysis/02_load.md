@@ -5,12 +5,6 @@ Description: This is our Load page.
 
 # Load
 
-Jag har sedan innan jag kunde gå sprungit orientering. Det är en härlig sport ute i skogen med utmaningar för både kropp och knopp.
 
-<table style="border-spacing: 4px; border-collapse: separate">
-<tr>
-<td style="height: 50px; width: 50px; background-color: #ef0">
-<td style="height: 50px; width: 50px; background-color: #0ef">
-<td style="height: 50px; width: 50px; background-color: #f0e">
-</tr>
-</table>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nxoe5DjDd74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
