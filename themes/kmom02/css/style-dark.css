@@ -6589,8 +6589,8 @@ pre {
   margin-left: 20%;
 }
 
-iframe {
-  margin: auto;
+.technology iframe {
+  margin-left: 10%;
 }
 
 @media screen and (max-width: 480px) {
@@ -6621,8 +6621,13 @@ iframe {
   .technology a {
     margin-left: 5px;
   }
+  .technology .image-grid1 {
+    margin: 0;
+  }
   .technology .image-grid1 .pics {
-    margin-left: 10%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 5%;
   }
 }
 /* Under mina övriga imports */
