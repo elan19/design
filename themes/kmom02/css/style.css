@@ -6656,7 +6656,7 @@ body {
 }
 
 body {
-  background-color: #999;
+  background-color: #eee;
   display: flex;
   flex-direction: column;
 }
@@ -6684,7 +6684,7 @@ ul {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #666;
+  background-color: #eee;
 }
 
 /* Article in main */
@@ -6712,7 +6712,7 @@ ul {
 .footer {
   display: flex;
   justify-content: space-between;
-  background-color: #666;
+  background-color: #eee;
   height: 150px;
 }
 .footer a {

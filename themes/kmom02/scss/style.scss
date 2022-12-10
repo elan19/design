@@ -40,7 +40,7 @@ body {
 }
 
 body {
-    background-color: $background-color;
+    background-color: $background-color-white;
     display: flex;
     flex-direction: column;
 }
@@ -69,7 +69,7 @@ ul {
 .site-header {
     display: flex;
     justify-content: space-between;
-    background-color: #666;
+    background-color: $background-color-white
 }
 
 /* Article in main */
@@ -100,7 +100,7 @@ ul {
 .footer {
     display: flex;
     justify-content: space-between;
-    background-color: #666;
+    background-color: $background-color-white;
     height: 150px;
 
     a {
