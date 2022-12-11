@@ -53,6 +53,11 @@
 
 .technology .image-grid1 .pics {
     margin-left: 20%;
+    transition: all .25s;
+}
+
+.technology .image-grid1 .pics:hover {
+    transform: scale(1.3);
 }
 
 .technology iframe {
