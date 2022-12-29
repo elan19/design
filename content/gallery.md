@@ -10,8 +10,9 @@ Gallery
 <div class="image-grid1">
     <a href="{{ base_url }}/../image/christmas-light.jpg">
         <picture>
-            <source media="(min-width: 480px)" srcset="image/christmas-light.jpg?width=20%">
-            <img alt="christmas-light" class="pics" src="{{ base_url }}/../image/christmas-light.jpg?width=15%">
+            <source media="(min-width: 1420px)" srcset="image/christmas-light.jpg?width=20%">
+            <source media="(min-width: 980px)" srcset="image/christmas-light.jpg?width=15%">
+            <img alt="christmas-light" class="pics" src="{{ base_url }}/../image/christmas-light.jpg?width=100%">
         </picture>
     </a>
 </div>
@@ -19,8 +20,9 @@ Gallery
 <div class="image-grid1">
     <a href="{{ base_url }}/../image/christmas-tree.jpg">
         <picture>
-            <source media="(min-width: 480px)" srcset="image/christmas-tree.jpg?width=20%">
-            <img alt="christmas-tree" class="pics" src="{{ base_url }}/../image/christmas-tree.jpg?width=15%">
+            <source media="(min-width: 1420px)" srcset="image/christmas-tree.jpg?width=20%">
+            <source media="(min-width: 980px)" srcset="image/christmas-tree.jpg?width=15%">
+            <img alt="christmas-tree" class="pics" src="{{ base_url }}/../image/christmas-tree.jpg?width=100%">
         </picture>
     </a>
 </div>
@@ -28,8 +30,9 @@ Gallery
 <div class="image-grid1">
     <a href="{{ base_url }}/../image/santa-claus.jpg">
         <picture>
-            <source media="(min-width: 480px)" srcset="image/santa-claus.jpg?width=20%">
-            <img alt="santa-claus" class="pics" src="{{ base_url }}/../image/santa-claus.jpg?width=15%">
+            <source media="(min-width: 1420px)" srcset="image/santa-claus.jpg?width=20%">
+            <source media="(min-width: 980px)" srcset="image/santa-claus.jpg?width=15%">
+            <img alt="santa-claus" class="pics" src="{{ base_url }}/../image/santa-claus.jpg?width=100%">
         </picture>
     </a>
 </div>

@@ -70,4 +70,5 @@ Referenser
 -----------------------
 
 Youtube - https://www.youtube.com/playlist?list=PLKtP9l5q3ce-oz7aoBkk-oEn4xzGbtqxU 2022-12-10
+
 Canva - https://www.canva.com/learn/design-elements-principles/ 2022-12-10
